@@ -143,13 +143,34 @@
       ]
     },
     {
-      "category": "origin",
+      "category": "origin_consortium",
       "values": [
         {
-          "consortium": "The Courtois Project on Neuronal Modelling",
-          "city": "Montreal",
-          "province": "Quebec",
-          "country": "Canada"
+          "value": "The Courtois Project on Neuronal Modelling"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Montreal"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Quebec"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
         }
       ]
     },
