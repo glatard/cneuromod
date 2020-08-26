@@ -1,18 +1,12 @@
 {
-  "@id": "https://w3id.org/dats/schema/dataset_schema.json",
-  "@type": "Dataset",
   "title": "cneuromod dataset",
-  "description": "Umbrella dataset of the the Courtois Project on Neuronal Modelling",
+  "description": "Umbrella dataset of the Courtois Project on Neuronal Modelling",
   "identifier": {
-    "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-    "@type": "Identifier",
     "identifier": "https://doi.org/10.5281/zenodo.3875552",
     "identifierSource": "Zenodo DOI"
   },
   "dates": [
     {
-      "@id": "https://w3id.org/dats/schema/date_info_schema.json",
-      "@type": "Date",
       "date": "2020-05-04",
       "type": {
         "@id": "https://w3id.org/dats/schema/annotation_schema.json",
@@ -28,29 +22,17 @@
   ],
   "types": [
     {
-      "@id": "https://w3id.org/dats/schema/data_type_schema.json",
-      "@type": "DataType",
       "information": {
-        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-        "@type": "Annotation",
         "value": "MRI"
       }
     },
     {
-      "@id": "https://w3id.org/dats/schema/data_type_schema.json",
-      "@type": "DataType",
       "information": {
-        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-        "@type": "Annotation",
         "value": "Basic Demographics"
       }
     },
     {
-      "@id": "https://w3id.org/dats/schema/data_type_schema.json",
-      "@type": "DataType",
       "information": {
-        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-        "@type": "Annotation",
         "value": "BIDS"
       }
     }
@@ -60,15 +42,11 @@
   "privacy": "Private",
   "licenses": [
     {
-      "@id": "https://w3id.org/dats/schema/license_schema.json",
-      "@type": "License",
       "name": "to be determined"
     }
   ],
   "distributions": [
     {
-    "@id": "http://json-schema.org/draft-04/schema",
-    "@type": "DatasetDistribution",
     "formats": [
       "BIDS",
       "NIfTI",
@@ -77,8 +55,6 @@
     ],
     "size" : 1000,
     "unit" : {
-      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-      "@type": "Annotation",
       "value": "GB"
     },
     "access": {
@@ -93,15 +69,11 @@
   ],
   "isAbout": [
     {
-      "@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
-      "@type": "BiologicalEntity",
       "name": "Adult humans"
     }
   ],
   "spatialCoverage": [
     {
-      "@id": "https://w3id.org/dats/schema/place_schema.json",
-      "@type": "Place",
       "name": "Québec (province)",
       "description": "Province of Québec, Canada"
     }
@@ -109,35 +81,23 @@
   "aggregation": "instance of dataset",
   "dimensions": [
     {
-      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
-      "@type": "Dimension",
       "name" : {
-          "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-          "@type": "Annotation",
           "value": "Structural MRI"
       },
       "description": "T1-weighted MPRAGE 3D sagittal, T2-weighted FSE (SPACE) 3D sagittal, Diffusion-weighted 2D axial, gradient-echo magnetization-transfer 3D, gradient-echo proton density 3D, gradient-echo T1-weighted 3D, MP2RAGE 3D, Susceptibility-weighted 3D"
     },
     {
-      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
-      "@type": "Dimension",
       "name" : {
-          "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-          "@type": "Annotation",
           "value": "Functional MRI"
       },
       "description": "resting BOLD, tasks BOLD"
     }
   ],
-  "acknowledges" : [ 
+  "acknowledges" : [
     {
-      "@id": "https://w3id.org/dats/schema/grant_schema.json",
-      "@type": "Grant",
       "name": "Donation",
       "funders": [
         {
-          "@id": "https://w3id.org/dats/schema/organization_schema.json",
-          "@type": "Organization",
           "name": "Courtois foundation"
         }
       ]
@@ -145,23 +105,15 @@
   ],
   "keywords": [
     {
-      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-      "@type": "Annotation",
       "value": "Human Connectome Project TRT"
     },
     {
-      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-      "@type": "Annotation",
       "value": "Movies"
     },
     {
-      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-      "@type": "Annotation",
       "value": "Structural MRI"
     },
     {
-      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-      "@type": "Annotation",
       "value": "Functional MRI"
     }
   ],
@@ -186,7 +138,39 @@
       "category": "CONP_status",
       "values": [
         {
-          "value": "canadian"
+          "value": "Canadian"
+        }
+      ]
+    },
+    {
+      "category": "origin_consortium",
+      "values": [
+        {
+          "value": "The Courtois Project on Neuronal Modelling"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Montreal"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Quebec"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
         }
       ]
     },
