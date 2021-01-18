@@ -9,9 +9,7 @@
     {
       "date": "2020-05-04",
       "type": {
-        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
-        "@type": "Annotation",
-        "value": "Start Date"
+        "value": "start date"
       }
     }
   ],
